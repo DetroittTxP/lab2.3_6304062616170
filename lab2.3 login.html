@@ -11,6 +11,7 @@
     <style>
        
        
+       
     </style>
 
     <h1>เข้าสู่ระบบ</h1>
@@ -19,22 +20,22 @@
         <table border="1" >
             <tr>
                 <td>
-                    <label for="Username"">Username:</label>
-                    <input type="text" name="Username" required>
+                    <label for="Username" autofocus>Username: </label>
+                    <input type="text" name="Username" required autofocus>
                 </td>
                 
             </tr>
             <tr>
                 <td>
                     <label for="Password"">Password :</label>
-                    <input type="text" name="Username" required>
+                    <input autofocus type="text" name="Username" id="Password"required>
                 </td>
             </tr>
     
             <tr>
                 <td>
-                    <label>กรุณาพิมตามตัวเลขที่ปรากฎ<br>1559</label>
-                    <input type="text" pattern="1559" maxlength="4" required>
+                    <label for="1559">กรุณาพิมตามตัวเลขที่ปรากฎ<br>1559</label>
+                    <input type="text" pattern="1559" maxlength="4" id="1559" required>
                 </td>
             </tr>
            
@@ -43,6 +44,7 @@
         <input type="image" src="https://thumbs.dreamstime.com/b/login-icon-button-vector-illustration-isolated-white-background-127000574.jpg" alt="Login" height="100" width="100">
        
     </form>
+
     
     
 
